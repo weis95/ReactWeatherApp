@@ -1,0 +1,17 @@
+.card {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.card-body {
+    font-size: 50px;
+}
+
