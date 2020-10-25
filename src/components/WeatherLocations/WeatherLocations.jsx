@@ -30,6 +30,7 @@ class SavedLocations extends React.Component {
 
     getWeather = async (city, i) => {
         fetch(`${openWeather}weather?q=${city}${apiKey}`)
+        fetch(`${openWeather}/weather?q=${city}${apiKey}`)
         .then(res => res.json())
         .then(
             (result) => {
